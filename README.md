@@ -28,4 +28,4 @@ I am a senior AI engineer at [NXAI](https://www.nx-ai.com) in Linz, Austria. I b
 
 ## 📄 Papers
 
-If my research is interesting to you, you can find my papers on [Google Scholar](https://scholar.google.com/citations?user=FaHGR6QAAAAJ). My website is [yipengsun.com](https://yipengsun.com).
+If my research is interesting to you, you can find my papers on [Google Scholar](https://scholar.google.com/citations?user=FaHGR6QAAAAJ).
