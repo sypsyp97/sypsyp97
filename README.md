@@ -1,4 +1,4 @@
-# Hi, I am Yipeng Sun 👋
+# Hi, I am Yipeng Sun (孙熠芃) 👋
 
 🤖 I am a senior AI engineer at [NXAI](https://www.nx-ai.com) in Linz, Austria.\
 🦾 I build embodied intelligence for robots.\
