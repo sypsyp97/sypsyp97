@@ -1,6 +1,6 @@
 # Yipeng Sun (孙熠芃)
 
-I am a senior AI engineer at [NXAI](https://www.nx-ai.com) in Linz, Austria. I build embodied intelligence for robots. My PhD research at FAU Erlangen-Nürnberg is about medical imaging and computed tomography.
+I am a senior AI engineer at [NXAI](https://www.nx-ai.com) in Linz, Austria. I build embodied intelligence for robots. My PhD research at FAU Erlangen-Nürnberg is about medical imaging and computed tomography reconstruction.
 
 ## 🛠️ What I build
 
