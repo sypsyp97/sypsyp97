@@ -2,7 +2,7 @@ I am Yipeng Sun (孙熠芃), a senior AI engineer at [NXAI](https://www.nx-ai.co
 
 ## 🛠️ What I build
 
-- **[diffct](https://github.com/sypsyp97/diffct)** [![PyPI](https://img.shields.io/pypi/v/diffct?style=flat-square)](https://pypi.org/project/diffct/): Differentiable CT projectors for PyTorch, with multi-GPU operation and geometry gradients.
+- **[diffct](https://github.com/sypsyp97/diffct)** ([PyPI](https://pypi.org/project/diffct/)): Differentiable CT projectors for PyTorch, with multi-GPU operation and geometry gradients.
 - **[Light-Whisper](https://github.com/sypsyp97/light-whisper)**: Speech-to-text for Windows. Hold a hotkey, speak, and the text goes into the active app.
 
 ### 🧰 Small tools that I build for every day use
@@ -12,7 +12,7 @@ I am Yipeng Sun (孙熠芃), a senior AI engineer at [NXAI](https://www.nx-ai.co
 
 ## 🦖 What I maintain
 
-- **[TiRex](https://github.com/NX-AI/tirex)** [![PyPI](https://img.shields.io/pypi/v/tirex-ts?style=flat-square)](https://pypi.org/project/tirex-ts/) and **[TiRex-2](https://github.com/NX-AI/tirex-2)** [![PyPI](https://img.shields.io/pypi/v/tirex-2?style=flat-square)](https://pypi.org/project/tirex-2/): NXAI models for zero-shot forecasts of time series.
+- **[TiRex](https://github.com/NX-AI/tirex)** ([PyPI](https://pypi.org/project/tirex-ts/)) and **[TiRex-2](https://github.com/NX-AI/tirex-2)** ([PyPI](https://pypi.org/project/tirex-2/)): NXAI models for zero-shot forecasts of time series.
 
 ## 🤝 Merged pull requests in other projects
 
