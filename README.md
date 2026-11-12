@@ -1,6 +1,10 @@
 # Hi, I am Yipeng Sun 👋
 
-I am an AI engineer at [NXAI](https://www.nx-ai.com) in Linz, Austria. I build embodied intelligence for robots. My PhD research at FAU Erlangen-Nürnberg is on medical imaging and computed tomography.
+🤖 I am an AI engineer at [NXAI](https://www.nx-ai.com) in Linz, Austria.\
+🦾 I build embodied intelligence for robots.\
+🎓 My PhD research at FAU Erlangen-Nürnberg is on medical imaging and computed tomography.
+
+[`🏠 yipengsun.com`](https://yipengsun.com) [`📄 Google Scholar`](https://scholar.google.com/citations?user=FaHGR6QAAAAJ) [`🏢 NXAI`](https://github.com/NX-AI)
 
 ## 🛠️ What I build
 
