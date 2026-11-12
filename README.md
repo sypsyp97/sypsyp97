@@ -14,7 +14,7 @@ I am a senior AI engineer at [NXAI](https://www.nx-ai.com) in Linz, Austria. I b
 
 ## 🦖 What I maintain
 
-- **[TiRex](https://github.com/NX-AI/tirex)** and **[TiRex-2](https://github.com/NX-AI/tirex-2)**: NXAI models for zero-shot forecasts of time series. You can see my merged pull requests in [TiRex](https://github.com/NX-AI/tirex/pulls?q=is%3Apr+author%3Asypsyp97+is%3Amerged) and [TiRex-2](https://github.com/NX-AI/tirex-2/pulls?q=is%3Apr+author%3Asypsyp97+is%3Amerged).
+- **[TiRex](https://github.com/NX-AI/tirex)** and **[TiRex-2](https://github.com/NX-AI/tirex-2)**: NXAI models for zero-shot forecasts of time series.
 
 ## 🤝 Merged pull requests in other projects
 
