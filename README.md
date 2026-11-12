@@ -7,7 +7,7 @@ I am a senior AI engineer at [NXAI](https://www.nx-ai.com) in Linz, Austria. I b
 - **[diffct](https://github.com/sypsyp97/diffct)**: Differentiable CT projectors for PyTorch, with multi-GPU operation and geometry gradients.
 - **[Light-Whisper](https://github.com/sypsyp97/light-whisper)**: Speech-to-text for Windows. Hold a hotkey, speak, and the text goes into the active app.
 
-### 🧰 Smaller tools that I use each day
+### 🧰 Small tools that I build for every day use
 
 - **[Kou](https://github.com/sypsyp97/kou)**: Local dictation for macOS. Kou does not send audio out of your Mac.
 - **[lidwake](https://github.com/sypsyp97/lidwake)**: Prevents sleep on a MacBook with the lid closed while Claude Code is active.
