@@ -68,10 +68,10 @@
 
 ## 🦖 What I maintain
 
-| Project | What it is | |
-|:--|:--|:--|
-| **[TiRex](https://github.com/NX-AI/tirex)** | Zero-shot time series forecasting model from NXAI | [![TiRex stars](https://img.shields.io/github/stars/NX-AI/tirex?style=flat-square&logo=github&label=stars)](https://github.com/NX-AI/tirex/stargazers) |
-| **[TiRex-2](https://github.com/NX-AI/tirex-2)** | The second generation of TiRex | [![TiRex-2 stars](https://img.shields.io/github/stars/NX-AI/tirex-2?style=flat-square&logo=github&label=stars)](https://github.com/NX-AI/tirex-2/stargazers) |
+| Project | What it is | My merged pull requests | |
+|:--|:--|:--|:--|
+| **[TiRex](https://github.com/NX-AI/tirex)** | Zero-shot time series forecasting model from NXAI | [2](https://github.com/NX-AI/tirex/pulls?q=is%3Apr+author%3Asypsyp97+is%3Amerged) | [![TiRex stars](https://img.shields.io/github/stars/NX-AI/tirex?style=flat-square&logo=github&label=stars)](https://github.com/NX-AI/tirex/stargazers) |
+| **[TiRex-2](https://github.com/NX-AI/tirex-2)** | The second generation of TiRex | [6](https://github.com/NX-AI/tirex-2/pulls?q=is%3Apr+author%3Asypsyp97+is%3Amerged) | [![TiRex-2 stars](https://img.shields.io/github/stars/NX-AI/tirex-2?style=flat-square&logo=github&label=stars)](https://github.com/NX-AI/tirex-2/stargazers) |
 
 ## 🤝 Merged pull requests in other projects
 
@@ -79,6 +79,8 @@
 |:--|:--|:--|
 | [dora-rs/dora](https://github.com/dora-rs/dora) | [#4142](https://github.com/dora-rs/dora/pull/4142) | Restore runtime parameters when a node restarts |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | [#4066](https://github.com/rtk-ai/rtk/pull/4066) | Fall back to raw bytes when a file is not valid UTF-8 |
+| [youssofal/MTPLX](https://github.com/youssofal/MTPLX) | [#636](https://github.com/youssofal/MTPLX/pull/636) | Fix the DeepSeek MTP logit projection controls (the maintainer merged the commit into 2.12.3) |
+| [youssofal/MTPLX](https://github.com/youssofal/MTPLX) | [#433](https://github.com/youssofal/MTPLX/pull/433) | Accept the "off" values of OpenAI `reasoning_effort` (the maintainer adopted the fix) |
 | [meshery/meshery](https://github.com/meshery/meshery) | [#17367](https://github.com/meshery/meshery/pull/17367) | Fix a broken link in the pattern management guide |
 | [santisoler/cc-licenses](https://github.com/santisoler/cc-licenses) | [#31](https://github.com/santisoler/cc-licenses/pull/31) | Fix typos in the CC BY-NC license text |
 | [LoraLinH/Awesome-CT-Reconstruction](https://github.com/LoraLinH/Awesome-CT-Reconstruction) | [4 pull requests](https://github.com/LoraLinH/Awesome-CT-Reconstruction/pulls?q=is%3Apr+author%3Asypsyp97+is%3Amerged) | Add CT reconstruction papers |
