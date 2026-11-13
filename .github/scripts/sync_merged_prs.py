@@ -3,8 +3,9 @@
 The script searches for public pull requests by the profile owner that were
 merged on or after SINCE. It skips pull requests in the owner's own
 repositories and in the excluded organizations, pull requests that the README
-already links, and repositories that the README links as a group. It inserts
-each new entry at the top of the section, newest first.
+already links, repositories that the README links as a group, and pull
+requests that change only documentation files. It inserts each new entry at
+the top of the section, newest first.
 """
 
 import json
@@ -16,10 +17,17 @@ from pathlib import Path
 OWNER = "sypsyp97"
 EXCLUDED_OWNERS = {OWNER, "NX-AI"}
 SINCE = "2026-11-13"
-HEADING = "## 🤝 Merged pull requests in other projects"
+HEADING = "## 🤝 Selected merged pull requests in other projects"
 README = Path("README.md")
 
 CONVENTIONAL_PREFIX = re.compile(r"^[a-z]+(\([^)]*\))?!?:\s*")
+DOCS_FILE = re.compile(
+    r"(^|/)(docs?|documentation)/"
+    r"|\.(md|mdx|rst)$"
+    r"|(^|/)(LICENSE|COPYING|README|CHANGELOG|AUTHORS|CONTRIBUTING)"
+    r"(-[^/.]*)?(\.txt)?$",
+    re.IGNORECASE,
+)
 
 
 def merged_prs():
@@ -36,6 +44,18 @@ def merged_prs():
         check=True, capture_output=True, text=True,
     ).stdout
     return json.loads(out)
+
+
+def docs_only(repo, number):
+    out = subprocess.run(
+        [
+            "gh", "api", "--paginate",
+            f"repos/{repo}/pulls/{number}/files",
+            "--jq", ".[].filename",
+        ],
+        check=True, capture_output=True, text=True,
+    ).stdout
+    return all(DOCS_FILE.search(name) for name in out.splitlines())
 
 
 def entry_text(title):
@@ -61,6 +81,8 @@ def main():
         if owner in EXCLUDED_OWNERS:
             continue
         if pr["url"] in section or f"https://github.com/{repo}/pulls?" in section:
+            continue
+        if docs_only(repo, pr["number"]):
             continue
         new.append(
             f"- **[{repo} #{pr['number']}]({pr['url']})**: {entry_text(pr['title'])}\n"

@@ -14,15 +14,14 @@ I am Yipeng Sun (孙熠芃), a senior AI engineer at [NXAI](https://www.nx-ai.co
 
 - **[TiRex](https://github.com/NX-AI/tirex)** ([PyPI](https://pypi.org/project/tirex-ts/)) and **[TiRex-2](https://github.com/NX-AI/tirex-2)** ([PyPI](https://pypi.org/project/tirex-2/)): NXAI models for zero-shot forecasts of time series.
 
-## 🤝 Merged pull requests in other projects
+## 🤝 Selected merged pull requests in other projects
 
 - **[dora-rs/dora #4142](https://github.com/dora-rs/dora/pull/4142)**: The daemon restores the runtime parameters when a node restarts.
 - **[rtk-ai/rtk #4066](https://github.com/rtk-ai/rtk/pull/4066)**: `rtk read` shows the raw bytes when a file is not valid UTF-8.
 - **[youssofal/MTPLX #636](https://github.com/youssofal/MTPLX/pull/636)**: DeepSeek MTP models skip the output head when the engine does not need all logits.
 - **[youssofal/MTPLX #433](https://github.com/youssofal/MTPLX/pull/433)**: The server accepts the OpenAI `reasoning_effort` values that mean "off".
-- **[meshery/meshery #17367](https://github.com/meshery/meshery/pull/17367)**: The link in the pattern management guide is correct again.
-- **[santisoler/cc-licenses #31](https://github.com/santisoler/cc-licenses/pull/31)**: The CC BY-NC license text has correct quotation marks.
-- **[LoraLinH/Awesome-CT-Reconstruction](https://github.com/LoraLinH/Awesome-CT-Reconstruction/pulls?q=is%3Apr+author%3Asypsyp97+is%3Amerged)**: Four pull requests added CT reconstruction papers to the list.
+
+To see all my merged pull requests in other projects, use the [full list](https://github.com/search?q=is%3Apr+author%3Asypsyp97+is%3Amerged+-user%3Asypsyp97&type=pullrequests).
 
 ## 📄 Papers
 
