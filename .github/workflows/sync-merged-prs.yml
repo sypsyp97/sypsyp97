@@ -1,0 +1,32 @@
+name: Sync merged pull requests
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-merged-prs
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add new merged pull requests to the README
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/sync_merged_prs.py
+      - name: Commit the README
+        run: |
+          if git diff --quiet README.md; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add newly merged pull requests to the README" README.md
+          git push
