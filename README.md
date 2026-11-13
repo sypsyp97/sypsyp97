@@ -17,6 +17,7 @@ I am Yipeng Sun (孙熠芃), a senior AI engineer at [NXAI](https://www.nx-ai.co
 ## 🤝 Selected merged pull requests in other projects
 
 - **[dora-rs/dora #4142](https://github.com/dora-rs/dora/pull/4142)**: The daemon restores the runtime parameters when a node restarts.
+- **[dora-rs/dora #4144](https://github.com/dora-rs/dora/pull/4144)**: A node keeps each pending parameter change until the node applies it.
 - **[rtk-ai/rtk #4066](https://github.com/rtk-ai/rtk/pull/4066)**: `rtk read` shows the raw bytes when a file is not valid UTF-8.
 - **[youssofal/MTPLX #636](https://github.com/youssofal/MTPLX/pull/636)**: DeepSeek MTP models skip the output head when the engine does not need all logits.
 - **[youssofal/MTPLX #433](https://github.com/youssofal/MTPLX/pull/433)**: The server accepts the OpenAI `reasoning_effort` values that mean "off".
