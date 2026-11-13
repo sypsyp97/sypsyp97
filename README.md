@@ -9,6 +9,7 @@ I am Yipeng Sun (孙熠芃), a senior AI engineer at [NXAI](https://www.nx-ai.co
 
 - **[Kou](https://github.com/sypsyp97/kou)**: Local dictation for macOS. Kou does not send audio out of your Mac.
 - **[lidwake](https://github.com/sypsyp97/lidwake)**: Prevents sleep on a MacBook with the lid closed while Claude Code is active.
+- **[Sun Serif](https://github.com/sypsyp97/sun-serif)**: A serif font family for text and headings. My personal site uses it.
 
 ## 🦖 What I maintain
 
